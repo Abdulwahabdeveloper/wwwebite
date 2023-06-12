@@ -1,0 +1,124 @@
+a.fas {
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.num {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 14px;
+  /* left: 18px; */
+  width: 17px;
+  height: 17px;
+  font-size: 10px;
+  background-color: #67971f;
+  color: white;
+}
+.ri-shopping-cart-2-line:before {
+  content: "\f11e";
+  font-size: 1.555rem;
+}
+.icons li a .shopping{
+  right: 5.444rem;
+}
+.icons li a .Heart{
+  right: 2.888rem;
+}
+.ri-heart-line:before {
+  content: "\f11e";
+  font-size: 1.555rem;
+}
+.uerimg{
+  width: 1.444rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  min-height: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 12px;
+  text-decoration: none;
+  display: block;
+}
+.nav ul li {
+  padding-top: 1rem;
+}
+.icons .nav-item{
+  padding-top: 1rem;
+}
+.nav__active{
+  color:red !important;
+}
+/* home section start */
+.hero__section{
+  /* margin-top: 5rem; */
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.hero__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+.hero__section__img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+  .hero__content {
+    min-height: 70vh;
+  }
+  .hero__section__img {
+     min-height: unset;
+    margin-bottom: 3rem;
+}
+
+}
+
+/* home section end */
+
+.dropdown:hover .dropdown-content {display: block;}
+@media (min-width: 1200px){
+  .container-xl {
+      max-width: 1200px !important;
+  }
+}
+@media (min-width: 2000px){
+
+  .container-3xl {
+      max-width: 2000px !important;
+  }
+}
+/* @media (min-width: 576px){
+  .container-sm{
+      max-width: 575px !important;
+  }
+} */
